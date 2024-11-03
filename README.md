@@ -1,5 +1,7 @@
 # APP-WEB-DEFACE-MONITORING
 Đồ án: Bảo mật thông tin
+
+
 5.1. Chuẩn bị môi trường thử nghiệm
 Môi trường thực hiện thử nghiệm là hệ điều hành Windows 
 Công cụ giám sát (Web monitoring) hoạt động trên giao diện web theo địa chỉ: http://localhost:5000. 
