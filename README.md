@@ -5,6 +5,8 @@
 5.1. Chuẩn bị môi trường thử nghiệm
 Môi trường thực hiện thử nghiệm là hệ điều hành Windows 
 Công cụ giám sát (Web monitoring) hoạt động trên giao diện web theo địa chỉ: http://localhost:5000. 
+
+
 5.2. Cài đặt các công cụ hỗ trợ 
 •	Cài đặt máy chủ Visual Studio code 
 •	Lên Google và tìm kiếm từ khóa "Visual Studio Code" là sẽ thấy trang code.visualstudio.com của nhà cung ứng. Sau đó chúng ta chọn phiên bản phù hợp với hệ điều hành máy tính của mình. Các cài Visual Studio Code có thể cài được trên Windows, macOS, Linux x64.
