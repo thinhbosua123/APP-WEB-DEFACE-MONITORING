@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Web Test Deface</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <h1 class="title"><strong>Trang thông tin nhóm</strong></h1>
+    <div class="container">
+      <div class="column">
+        <img alt="Hình 1" src="{{ url_for('static', filename='images/image1.png') }}"/>
+        <audio controls="">
+          <source src="{{ url_for('static', filename='sounds/audio1.m4a') }}" type="audio/mpeg"/>
+        </audio>
+        <h4> Logo Design </h4>
+        <p>Logo Design là quá trình thiết kế và phát triển một biểu tượng, hình ảnh hoặc ký hiệu để đại diện cho một thương hiệu, công ty hoặc tổ chức. Mục đích của Logo Design là tạo ra một thương hiệu độc đáo và nhận diện được trên thị trường, giúp thu hút sự chú ý của khách hàng và tăng tính cạnh tranh của doanh nghiệp.</p>
+      </div>
+
+      <div class="column">
+        <img alt="Hình 2" src="{{ url_for('static', filename='images/image2.png') }}"/>
+        <audio controls="">
+          <source src="{{ url_for('static', filename='sounds/audio2.m4a') }}" type="audio/mpeg"/>
+        </audio>
+        <h4> Coding </h4>
+        <p>Coding là quá trình viết mã để tạo ra các chương trình, ứng dụng, trang web và các phần mềm khác. Nó bao gồm việc sử dụng các ngôn ngữ lập trình để tạo ra mã máy tính, kiểm thử, sửa lỗi và triển khai phần mềm. Coding là một kỹ năng quan trọng cho ngành công nghiệp phần mềm, và đóng vai trò quan trọng trong việc phát triển các công nghệ mới và cải thiện hiệu quả hoạt động của các doanh nghiệp.</p>
+      </div>
+
+      <div class="column">
+        <img alt="Hình 3" src="{{ url_for('static', filename='images/image3.png') }}"/>
+        <audio controls="">
+          <source src="{{ url_for('static', filename='sounds/audio3.m4a') }}" type="audio/mpeg"/>
+        </audio>
+        <h4> Web Design </h4>
+        <p>Web design là quá trình tạo ra các trang web đẹp mắt và dễ sử dụng cho người dùng thông qua việc tạo mẫu giao diện, lựa chọn màu sắc, bố cục, và các yếu tố trực quan khác để đảm bảo trải nghiệm tốt nhất cho người dùng khi sử dụng trang web. Web design cũng đóng vai trò quan trọng trong việc thúc đẩy tăng trưởng kinh doanh trực tuyến và tạo sự khác biệt với các đối thủ cạnh tranh.</p>
+      </div>
+    </div>
+
+    <div>
+        <div class="center">
+          <form action="{{ url_for('cmtHandler')}}" method="post">
+            <label for="firstname">Enter your comment:</label>
+            <input style="font-size: 30px;" type="text" name="comment">
+          </form>
+        </div>
+
+        <div class="comment">
+          {% for comment in comments %}
+            <h2> {{ comment | safe }} </h2>
+          {% endfor %}
+        </div>
+    </div>
+  </body>
+</html>

