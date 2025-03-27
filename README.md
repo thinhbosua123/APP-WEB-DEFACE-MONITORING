@@ -2,12 +2,12 @@
 Đồ án: Bảo mật thông tin
 
 
-5.1. Chuẩn bị môi trường thử nghiệm
+## 5.1. Chuẩn bị môi trường thử nghiệm
 Môi trường thực hiện thử nghiệm là hệ điều hành Windows 
 Công cụ giám sát (Web monitoring) hoạt động trên giao diện web theo địa chỉ: http://localhost:5000. 
 
 
-5.2. Cài đặt các công cụ hỗ trợ 
+## 5.2. Cài đặt các công cụ hỗ trợ 
 •	Cài đặt máy chủ Visual Studio code 
 •	Lên Google và tìm kiếm từ khóa "Visual Studio Code" là sẽ thấy trang code.visualstudio.com của nhà cung ứng. Sau đó chúng ta chọn phiên bản phù hợp với hệ điều hành máy tính của mình. Các cài Visual Studio Code có thể cài được trên Windows, macOS, Linux x64.
 •	Khi hoàn tất quá trình tải về thì chúng ta chỉ cần bấm chuột phải vào tên file của phần mềm => chọn Run as adminitrator => bấm Next ở tất cả các bước cho đến khi xong hết các bước thì bấm Finish. 
@@ -15,7 +15,7 @@ Công cụ giám sát (Web monitoring) hoạt động trên giao diện web theo
 •	Bước 1: Để tải xuống bản cài đặt Python đầy đủ, ta cần cửa sổ trình duyệt và truy cập vào trang python.org và click vào phần  Downloads page for Windows. Điều này sẽ giúp ta đến trang liệt kê các phiên bản cài đặt Python cho Windows.
 •	Bước 2: Chạy bản cài đặt Python.
 
-5.3. Cấu hình mã nguồn công cụ
+## 5.3. Cấu hình mã nguồn công cụ
 1.	Đăng nhập vào Tài khoản Google của bạn.
 2.	Nhấp vào Bảo mật.
 3.	Trong phần Đăng nhập vào Google, hãy nhấp vào Mật khẩu ứng dụng. Bạn có thể cần đăng nhập. Nếu bạn không nhìn thấy lựa chọn này thì có thể là do:
