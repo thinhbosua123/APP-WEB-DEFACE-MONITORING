@@ -44,7 +44,11 @@ Bước 2: Khởi chạy WebDefaceTool
  
 Sau đó đăng nhập vào website tại địa chỉ http://localhost:5000
 
+## Giao diện 
+![image](https://github.com/user-attachments/assets/c1796644-88c1-4a46-842b-1f7fd06de5f1)
 
+## Thông báo về cuộc tấn công
+![image](https://github.com/user-attachments/assets/8930de7b-243c-4a9e-9ede-32ace8d1a1f9)
 
 Kết luận: 
     + Ứng dụng đã giúp người dùng có thể xem được cảnh báo mà những hacker cố gắng tấn công
